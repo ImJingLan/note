@@ -1,0 +1,15 @@
+site_name: Yurwiki
+site_description: Yurwiki 是 景蓝Yurik 的 私人知识库
+site_author: Yurwiki Team
+
+copyright: Copyright &copy; 2022 - Present  Yurwiki Team
+
+theme:
+  name: material
+  language: zh
+  palette:
+    primary: "white"
+    accent: "red"
+  features:
+    - navigation.tabs
+    - navigation.instant
