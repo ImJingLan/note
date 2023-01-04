@@ -1,5 +1,5 @@
 @echo off
 cd ../
-rd docs /s /q
+rd site /s /q
 python -m mkdocs build
 pause
