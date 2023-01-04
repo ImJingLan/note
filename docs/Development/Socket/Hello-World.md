@@ -1,6 +1,6 @@
 # 搭建第一个 Socket 服务
 
-## 服务端
+### 服务端
 
 ```python
 import socket
@@ -32,7 +32,7 @@ while 1:
     sock.close()
 ```
 
-## 客户端
+### 客户端
 
 ```python
 import socket
@@ -51,3 +51,61 @@ while 1:
 ```
 
 > From:[Python 网络编程之 Socket 通信简单实现（文末赠书）](https://cloud.tencent.com/developer/article/1882149)
+
+## ChatGPT
+
+### 服务端
+
+```python
+import socket
+
+# 创建一个 socket 对象
+server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+# 获取本地主机名
+host = socket.gethostname()
+
+port = 12345
+
+# 绑定端口
+server_socket.bind((host, port))
+
+# 设置最大连接数，超过后排队
+server_socket.listen(5)
+
+while True:
+   # 建立客户端连接
+   client_socket, addr = server_socket.accept()
+
+   print("连接地址: %s" % str(addr))
+
+   msg = '欢迎来到聊天室！' + "\r\n"
+   client_socket.send(msg.encode('utf-8'))
+   client_socket.close()
+
+```
+
+### 客户端
+
+```python
+import socket
+
+# 创建一个 socket 对象
+client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+# 获取本地主机名
+host = socket.gethostname()
+
+port = 12345
+
+# 连接服务，指定主机和端口
+client_socket.connect((host, port))
+
+# 接收小于 1024 字节的数据
+msg = client_socket.recv(1024)
+
+client_socket.close()
+
+print (msg.decode('utf-8'))
+
+```
