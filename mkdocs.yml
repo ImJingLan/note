@@ -1,8 +1,8 @@
-site_name: Yurwiki
-site_description: Yurwiki 是 景蓝Yurik 的 私人知识库
-site_author: Yurwiki Team
+site_name: Yurik's Note
+site_description: 景蓝 Yurik 的私人知识库
+site_author: 景蓝 Yurik
 
-copyright: Copyright &copy; 2022 - Present  Yurwiki Team
+copyright: Copyright &copy; 2022 - Present Yurik. Available freely under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 license</a>.
 
 theme:
   name: material
@@ -13,3 +13,26 @@ theme:
   features:
     - navigation.tabs
     - navigation.instant
+    - content.code.copy
+    - content.tooltips
+    - navigation.footer
+    - navigation.indexes
+    - navigation.top
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.superfences
+  - markdown.extensions.def_list
+  - toc:
+      permalink: true
+
+extra_css:
+  - "assets/css/extra.css"

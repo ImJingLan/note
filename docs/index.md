@@ -1,12 +1,8 @@
 title: 主页
 
-# Yurwiki - Yurik 的 知识库
+# Yurik's Note - Yurik 的 知识库
 
 欢迎来到 Yurik 的 知识库
-
-## 什么是 Yurwiki ?
-
-Yurwiki 是由 Yurik 和维基的英文单词 Wiki 复合而成，代表着 Yurik 的 Wiki（实际上是知识库）
 
 ## 这里会记录什么?
 
@@ -16,14 +12,14 @@ Yurwiki 是由 Yurik 和维基的英文单词 Wiki 复合而成，代表着 Yuri
 
 博客更多地会写一些长文章，也会更多地涉及生活方面，笔法会偏生活化
 
-Yurwiki 则更多地记录技术内容，偏向硬核
+Yurik's Note 则更多地记录技术内容，偏向硬核
 
 ## 本知识库的维护者
 
-| [<img src="https://cdn.rimeradio.top/avatars/avatar@800px.png" width="100px;"/>](https://yurik.cafe) |
-| :--------------------------------------------------------------------------------------------------: |
-|                                [**景蓝 Yurik ** ](https://yurik.cafe)                                |
-|                                     **站点创建者、主要编辑者 **                                      |
+| ![](https://yurik.cafe/favicon/v2/icon@256px.jpg){.avatar} |
+| :--------------------------------------------------------: |
+|            [**景蓝 Yurik**](https://yurik.cafe)            |
+|                 **站点创建者、主要编辑者**                 |
 
 ## 我能参与这个知识库的创作吗？
 
