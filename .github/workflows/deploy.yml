@@ -25,6 +25,13 @@ jobs:
           pip install mkdocs-material
           pip install mkdocs-git-committers-plugin-2
 
+      - name: 获取提交版本号
+        id: get_version
+        run: |
+          version=$(git rev-parse --short HEAD)
+          echo "VERSION=$version" >> $GITHUB_ENV
+          echo "Latest commit version: $version"
+
       - name: 查询所有 HTML 文件
         run: |
           find . -type f -name "mkdocs.yml" > html_files.txt
