@@ -1,6 +1,9 @@
-site_name: Yurik's Note
+site_name: Note@Yurik
 site_description: 景蓝 Yurik 的私人知识库
 site_author: 景蓝 Yurik
+
+repo_name: ImJingLan/Note
+repo_url: "https://github.com/ImJingLan/note"
 
 copyright: Copyright &copy; 2022 - Present Yurik. Available freely under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 license</a>.
 
@@ -36,3 +39,4 @@ markdown_extensions:
 
 extra_css:
   - "assets/css/extra.css"
+  - "assets/css/extra-color.css"
