@@ -5,7 +5,7 @@ site_author: 景蓝 Yurik
 repo_name: ImJingLan/Note
 repo_url: "https://github.com/ImJingLan/note"
 
-copyright: Copyright &copy; 2022 - Present Yurik. Available freely under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 license</a>.
+copyright: 'Copyright &copy; 2022 - Present Yurik. Available freely under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 license</a>.</br>Version: {{GIT_VERSION}}'
 
 theme:
   name: material
